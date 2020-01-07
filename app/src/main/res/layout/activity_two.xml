@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TwoActivity">
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知第一个" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在子线程内通知第一个" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回第一个" />
+
+</LinearLayout>
